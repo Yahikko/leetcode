@@ -5,7 +5,7 @@ const containsNearbyDuplicate = (nums: number[], k: number): boolean => {
     if (i - map[nums[i]] <= k) {
       return true;
     }
-    map[nums[i]] = i
+    map[nums[i]] = i;
   }
 
   return false;
